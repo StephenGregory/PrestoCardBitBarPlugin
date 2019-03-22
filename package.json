@@ -1,0 +1,30 @@
+{
+  "name": "presto-card-bitbar",
+  "version": "0.1.0",
+  "description": "Presto Card status in MacOS menu bar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "bitbar",
+    "presto-card"
+  ],
+  "bin": {
+    "presto-card-bitbar": "./index.js"
+  },
+  "author": "Stephen Gregory",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "axios-cookiejar-support": "^0.4.2",
+    "bitbar": "^0.4.0",
+    "is-online": "^8.1.0",
+    "moment": "^2.24.0",
+    "presto-card-js": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  }
+}
